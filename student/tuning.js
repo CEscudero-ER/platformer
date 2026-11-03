@@ -25,28 +25,28 @@ const TUNING = {
      Assignment: Part 2, Hole 1.                                           */
 
   // How fast you fall. Bigger = heavier.          try 900 (moon) to 3500 (rock)
-  GRAVITY: 1800,
+  GRAVITY: 2100,
 
   // The fastest you can fall.                      try 400 to 1500
-  MAX_FALL_SPEED: 900,
+  MAX_FALL_SPEED: 450,
 
   // Top running speed.                             try 120 to 400
-  MOVE_SPEED: 220,
+  MOVE_SPEED: 290,
 
   // How quickly you reach top speed on the ground. try 600 (sluggish) to 5000 (snappy)
-  GROUND_ACCEL: 2400,
+  GROUND_ACCEL: 3500,
 
   // How quickly you stop when you let go.          try 300 (ice) to 5000 (glue)
-  GROUND_FRICTION: 2600,
+  GROUND_FRICTION: 2500,
 
   // How much you can steer while in the air.       try 200 (committed) to 3000 (floaty control)
-  AIR_ACCEL: 1500,
+  AIR_ACCEL: 2000,
 
   // How quickly you slow down in the air with no keys pressed.
-  AIR_FRICTION: 500,
+  AIR_FRICTION: 900,
 
   // How hard you push off the ground when you jump. try 400 to 900
-  JUMP_VELOCITY: 620,
+  JUMP_VELOCITY: 480,
 
 
   /* ===== HOLE 2 of 7 — The feel you can't see ===========================
@@ -59,22 +59,22 @@ const TUNING = {
   // Named after the cartoon coyote who runs off a cliff and hangs there.
   // At 0, jumps at the very edge of a platform will feel like they "didn't
   // take".                                         try 0 to 0.25
-  COYOTE_TIME: 0.10,
+  COYOTE_TIME: 0.2,
 
   // JUMP BUFFER: if you press jump slightly BEFORE you land, the jump still
   // happens when you touch down.
   // At 0, quick repeated jumps will sometimes be "eaten".   try 0 to 0.25
-  JUMP_BUFFER: 0.12,
+  JUMP_BUFFER: 0.15,
 
   // Let go of jump early to cut the jump short. This is how players make
   // small hops and big jumps with one button.
   // 1 = letting go does nothing. 0.3 = letting go stops you hard.
-  JUMP_RELEASE_CUT: 0.45,
+  JUMP_RELEASE_CUT: 0.25,
 
   // Near the top of a jump, gravity is multiplied by this. Below 1 gives a
   // little "hang" at the peak, which makes landing on things easier.
   //                                                try 0.4 to 1
-  APEX_GRAVITY_MULT: 0.6,
+  APEX_GRAVITY_MULT: 0.8,
 
   // How slow (px/s) counts as "near the top of a jump".
   APEX_THRESHOLD: 90,
@@ -87,13 +87,13 @@ const TUNING = {
      Then ask yourself: did it make your level too easy?
      Assignment: Part 2, Hole 3.                                           */
 
-  MAX_AIR_JUMPS: 0,
+  MAX_AIR_JUMPS: 1,
 
 
   // ----- Other -------------------------------------------------------------
 
   // How high you bounce after landing on an enemy.
-  STOMP_BOUNCE: 480,
+  STOMP_BOUNCE: 600,
 
   // How many lives you start with.
   LIVES: 3,
