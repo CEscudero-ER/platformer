@@ -13,10 +13,10 @@
    ========================================================================= */
 
 const THEME = {
-  skyTop:       "#1b2a4a",   // sky at the top of the screen
-  skyBottom:    "#3f5d8a",   // sky at the horizon
-  hillsFar:     "#2c4470",   // the distant hills
-  hillsNear:    "#26395e",   // the closer hills
+  skyTop:       "#397fb1",   // sky at the top of the screen
+  skyBottom:    "#2a88b4",   // sky at the horizon
+  hillsFar:     "#2a4e22",   // the distant hills
+  hillsNear:    "#265e42",   // the closer hills
 
   solid:        "#5b4a3a",   // solid blocks
   solidTop:     "#7fbf5a",   // the grassy top edge of solid blocks
