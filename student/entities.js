@@ -84,7 +84,18 @@ const ENEMY_TYPES = {
   },
 
   // <-- paste your new enemy here
-
+  chaser: {
+    movement: "chase",
+    speed: 100,
+    width: 25,
+    height: 15,
+    color: "#d734c1",
+    stompable: true,
+    points: 300,
+    turnsAtLedges: true,
+    hopPower: 230,
+    hopEvery: 2.5,
+  },
 };
 
 
@@ -173,6 +184,8 @@ const LEGEND = {
   "E": { kind: "enemy",  name: "walker" },
   "F": { kind: "enemy",  name: "flyer" },
   "H": { kind: "enemy",  name: "hopper" },
+  
 
   // <-- add your new letters here
+  "C": { kind: "enemy",  name: "chaser" },
 };
