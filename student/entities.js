@@ -96,6 +96,18 @@ const ENEMY_TYPES = {
     hopPower: 230,
     hopEvery: 2.5,
   },
+
+sentry: {
+    movement: "chase",
+    speed: 50,
+    width: 22,
+    height: 26,
+    color: "#C0C0C0",
+    stompable: false,
+    points: 0,
+    turnsAtLedges: true,
+    sightRange: 160,
+  },
 };
 
 
@@ -156,7 +168,14 @@ const PICKUP_TYPES = {
   },
 
   // <-- paste your new pickup here
-
+  heart: {
+    color: "#f1859e",
+    size: 14,
+    shape: "diamond",
+    points: 0,
+    treasure: false,
+    power: { life: 1 },
+  },
 };
 
 
@@ -188,4 +207,6 @@ const LEGEND = {
 
   // <-- add your new letters here
   "C": { kind: "enemy",  name: "chaser" },
+  "S": { kind: "enemy",  name: "sentry" },
+  "h": { kind: "pickup",  name: "heart" },
 };
